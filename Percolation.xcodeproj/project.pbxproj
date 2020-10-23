@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1E666025428BC200400545 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E665F25428BC200400545 /* Simulation.swift */; };
+		3C1E6665254291EB00400545 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E6664254291EB00400545 /* README.md */; };
 		3CD2B3EB25420C7100CA04D2 /* PercolationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */; };
 		3CD2B3ED25420C7100CA04D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EC25420C7100CA04D2 /* ContentView.swift */; };
 		3CD2B3EF25420C7200CA04D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EE25420C7200CA04D2 /* Assets.xcassets */; };
 		3CD2B3F225420C7200CA04D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD2B3F125420C7200CA04D2 /* Preview Assets.xcassets */; };
 		3CD2B3FD25420C7200CA04D2 /* PercolationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3FC25420C7200CA04D2 /* PercolationTests.swift */; };
 		3CD2B40825420C7200CA04D2 /* PercolationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B40725420C7200CA04D2 /* PercolationUITests.swift */; };
+		3CD2B41925420CD200CA04D2 /* WeightedQuickUnionUF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B41825420CD200CA04D2 /* WeightedQuickUnionUF.swift */; };
+		3CD2B4222542144400CA04D2 /* Percolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B41D254212F000CA04D2 /* Percolation.swift */; };
+		3CD2B475254255AA00CA04D2 /* PercolationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B4702542547D00CA04D2 /* PercolationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C1E665F25428BC200400545 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
+		3C1E6664254291EB00400545 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3CD2B3E725420C7100CA04D2 /* Percolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Percolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercolationApp.swift; sourceTree = "<group>"; };
 		3CD2B3EC25420C7100CA04D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +52,9 @@
 		3CD2B40325420C7200CA04D2 /* PercolationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PercolationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD2B40725420C7200CA04D2 /* PercolationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercolationUITests.swift; sourceTree = "<group>"; };
 		3CD2B40925420C7200CA04D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD2B41825420CD200CA04D2 /* WeightedQuickUnionUF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedQuickUnionUF.swift; sourceTree = "<group>"; };
+		3CD2B41D254212F000CA04D2 /* Percolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Percolation.swift; sourceTree = "<group>"; };
+		3CD2B4702542547D00CA04D2 /* PercolationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercolationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,7 @@
 		3CD2B3DE25420C7100CA04D2 = {
 			isa = PBXGroup;
 			children = (
+				3C1E6664254291EB00400545 /* README.md */,
 				3CD2B3E925420C7100CA04D2 /* Percolation */,
 				3CD2B3FB25420C7200CA04D2 /* PercolationTests */,
 				3CD2B40625420C7200CA04D2 /* PercolationUITests */,
@@ -96,6 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */,
+				3CD2B41825420CD200CA04D2 /* WeightedQuickUnionUF.swift */,
+				3CD2B41D254212F000CA04D2 /* Percolation.swift */,
+				3C1E665F25428BC200400545 /* Simulation.swift */,
+				3CD2B4702542547D00CA04D2 /* PercolationViewModel.swift */,
 				3CD2B3EC25420C7100CA04D2 /* ContentView.swift */,
 				3CD2B3EE25420C7200CA04D2 /* Assets.xcassets */,
 				3CD2B3F325420C7200CA04D2 /* Info.plist */,
@@ -233,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1E6665254291EB00400545 /* README.md in Resources */,
 				3CD2B3F225420C7200CA04D2 /* Preview Assets.xcassets in Resources */,
 				3CD2B3EF25420C7200CA04D2 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD2B4222542144400CA04D2 /* Percolation.swift in Sources */,
+				3CD2B41925420CD200CA04D2 /* WeightedQuickUnionUF.swift in Sources */,
+				3CD2B475254255AA00CA04D2 /* PercolationViewModel.swift in Sources */,
 				3CD2B3ED25420C7100CA04D2 /* ContentView.swift in Sources */,
+				3C1E666025428BC200400545 /* Simulation.swift in Sources */,
 				3CD2B3EB25420C7100CA04D2 /* PercolationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
