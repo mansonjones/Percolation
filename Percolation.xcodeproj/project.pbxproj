@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3C1E666025428BC200400545 /* Simulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E665F25428BC200400545 /* Simulation.swift */; };
 		3C1E6665254291EB00400545 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C1E6664254291EB00400545 /* README.md */; };
+		3C1E666A25437C3F00400545 /* StdRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E666925437C3F00400545 /* StdRandom.swift */; };
+		3C1E666F25437C9C00400545 /* StdStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E666E25437C9C00400545 /* StdStats.swift */; };
 		3CD2B3EB25420C7100CA04D2 /* PercolationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */; };
 		3CD2B3ED25420C7100CA04D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EC25420C7100CA04D2 /* ContentView.swift */; };
 		3CD2B3EF25420C7200CA04D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EE25420C7200CA04D2 /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		3C1E665F25428BC200400545 /* Simulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulation.swift; sourceTree = "<group>"; };
 		3C1E6664254291EB00400545 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C1E666925437C3F00400545 /* StdRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdRandom.swift; sourceTree = "<group>"; };
+		3C1E666E25437C9C00400545 /* StdStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdStats.swift; sourceTree = "<group>"; };
 		3CD2B3E725420C7100CA04D2 /* Percolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Percolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercolationApp.swift; sourceTree = "<group>"; };
 		3CD2B3EC25420C7100CA04D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */,
 				3CD2B41825420CD200CA04D2 /* WeightedQuickUnionUF.swift */,
 				3CD2B41D254212F000CA04D2 /* Percolation.swift */,
+				3C1E666925437C3F00400545 /* StdRandom.swift */,
+				3C1E666E25437C9C00400545 /* StdStats.swift */,
 				3C1E665F25428BC200400545 /* Simulation.swift */,
 				3CD2B4702542547D00CA04D2 /* PercolationViewModel.swift */,
 				3CD2B3EC25420C7100CA04D2 /* ContentView.swift */,
@@ -277,6 +283,8 @@
 			files = (
 				3CD2B4222542144400CA04D2 /* Percolation.swift in Sources */,
 				3CD2B41925420CD200CA04D2 /* WeightedQuickUnionUF.swift in Sources */,
+				3C1E666A25437C3F00400545 /* StdRandom.swift in Sources */,
+				3C1E666F25437C9C00400545 /* StdStats.swift in Sources */,
 				3CD2B475254255AA00CA04D2 /* PercolationViewModel.swift in Sources */,
 				3CD2B3ED25420C7100CA04D2 /* ContentView.swift in Sources */,
 				3C1E666025428BC200400545 /* Simulation.swift in Sources */,
