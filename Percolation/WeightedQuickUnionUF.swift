@@ -42,6 +42,10 @@ class WeightedQuickUnionUF {
         }
     }
     
+    func connected(_ p: Int, q: Int) -> Bool {
+        return find(p) == find(q)
+    }
+
     func union(_ p: Int, q: Int) {
         let rootP = find(p)
         let rootQ = find(q)

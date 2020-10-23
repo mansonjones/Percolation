@@ -1,6 +1,6 @@
 # Percolation
 
-## AArchitecture and Design
+## Architecture and Design
  The Percolate app is implemented using the MVVM Design Pattern.
 This design has the following advantages:
 The Model classes perform the simulation.
