@@ -12,7 +12,7 @@
 		3C1E666A25437C3F00400545 /* StdRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E666925437C3F00400545 /* StdRandom.swift */; };
 		3C1E666F25437C9C00400545 /* StdStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1E666E25437C9C00400545 /* StdStats.swift */; };
 		3CD2B3EB25420C7100CA04D2 /* PercolationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */; };
-		3CD2B3ED25420C7100CA04D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EC25420C7100CA04D2 /* ContentView.swift */; };
+		3CD2B3ED25420C7100CA04D2 /* PercolationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EC25420C7100CA04D2 /* PercolationView.swift */; };
 		3CD2B3EF25420C7200CA04D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD2B3EE25420C7200CA04D2 /* Assets.xcassets */; };
 		3CD2B3F225420C7200CA04D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD2B3F125420C7200CA04D2 /* Preview Assets.xcassets */; };
 		3CD2B3FD25420C7200CA04D2 /* PercolationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2B3FC25420C7200CA04D2 /* PercolationTests.swift */; };
@@ -46,7 +46,7 @@
 		3C1E666E25437C9C00400545 /* StdStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StdStats.swift; sourceTree = "<group>"; };
 		3CD2B3E725420C7100CA04D2 /* Percolation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Percolation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CD2B3EA25420C7100CA04D2 /* PercolationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercolationApp.swift; sourceTree = "<group>"; };
-		3CD2B3EC25420C7100CA04D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CD2B3EC25420C7100CA04D2 /* PercolationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercolationView.swift; sourceTree = "<group>"; };
 		3CD2B3EE25420C7200CA04D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CD2B3F125420C7200CA04D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CD2B3F325420C7200CA04D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 				3C1E666E25437C9C00400545 /* StdStats.swift */,
 				3C1E665F25428BC200400545 /* Simulation.swift */,
 				3CD2B4702542547D00CA04D2 /* PercolationViewModel.swift */,
-				3CD2B3EC25420C7100CA04D2 /* ContentView.swift */,
+				3CD2B3EC25420C7100CA04D2 /* PercolationView.swift */,
 				3CD2B3EE25420C7200CA04D2 /* Assets.xcassets */,
 				3CD2B3F325420C7200CA04D2 /* Info.plist */,
 				3CD2B3F025420C7200CA04D2 /* Preview Content */,
@@ -286,7 +286,7 @@
 				3C1E666A25437C3F00400545 /* StdRandom.swift in Sources */,
 				3C1E666F25437C9C00400545 /* StdStats.swift in Sources */,
 				3CD2B475254255AA00CA04D2 /* PercolationViewModel.swift in Sources */,
-				3CD2B3ED25420C7100CA04D2 /* ContentView.swift in Sources */,
+				3CD2B3ED25420C7100CA04D2 /* PercolationView.swift in Sources */,
 				3C1E666025428BC200400545 /* Simulation.swift in Sources */,
 				3CD2B3EB25420C7100CA04D2 /* PercolationApp.swift in Sources */,
 			);

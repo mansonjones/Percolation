@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PercolationView.swift
 //  Percolation
 //
 //  Created by Manson Jones on 10/22/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PercolationView: View {
     
     // Because the ViewModel is a
     // class, the next line creates
@@ -53,7 +53,7 @@ struct SiteView: View {
         ZStack { if site.isFull {
                 Rectangle().fill(Color.blue)
             } else if site.isOpen {
-                Rectangle().fill(Color.white)
+                Rectangle().fill(Color.green)
             } else {
                 Rectangle().fill(Color.black)
             }
@@ -63,6 +63,6 @@ struct SiteView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(viewModel: PercolationViewModel())
+        PercolationView(viewModel: PercolationViewModel())
     }
 }

@@ -12,7 +12,7 @@ struct PercolationApp: App {
     var body: some Scene {
         WindowGroup {
             let percolationViewModel = PercolationViewModel()
-            ContentView(viewModel: percolationViewModel)
+            PercolationView(viewModel: percolationViewModel)
         }
     }
 }
