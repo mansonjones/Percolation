@@ -15,6 +15,14 @@ struct ContentView: View {
     var viewModel: PercolationViewModel
     
     var body: some View {
+        VStack {
+            HStack {
+                ForEach(viewModel.grid) { site in
+                    SiteView(site: site)
+            // let site1 = Percolation.Site(isClosed: false, isFull: true, isOpen: true, id: 0)
+            // SiteView(site: site1)
+            }
+            }
         HStack {
             Button(action: {
                 print("Start Button was Tapped")
@@ -34,6 +42,22 @@ struct ContentView: View {
             
         }
         Text("Percolation Value")
+        }
+    }
+}
+
+struct SiteView: View {
+    var site: Percolation.Site
+    
+    var body: some View {
+        ZStack { if site.isFull {
+                Rectangle().fill(Color.blue)
+            } else if site.isOpen {
+                Rectangle().fill(Color.white)
+            } else {
+                Rectangle().fill(Color.black)
+            }
+        }
     }
 }
 

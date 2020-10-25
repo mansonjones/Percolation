@@ -1,4 +1,5 @@
-# Percolation
+#
+ Percolation
 
 ## Architecture and Design
  The Percolate app is implemented using the MVVM Design Pattern.

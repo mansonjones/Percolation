@@ -12,11 +12,12 @@ import Foundation
 // This is the API defined in the homework in Sedgewick's
 // Algorithms course on Coursera
 
-struct Percolation {
+class Percolation {
     // creates n-by-n grid, with all sites initially blocked.
     // private var grid = [[Bool]]()
     
     private var grid = [[Bool]]()
+    var grid2 = [[Site]]() // Not private, because it will be shared
     private var virtualTopSite: Int
     private var virtualBottomSite: Int
     private var size: Int = 0
@@ -29,6 +30,7 @@ struct Percolation {
         virtualBottomSite = n*n + 1
         size = n
         grid = [[Bool]](repeating: [Bool](repeating: false, count: n), count: n)
+        grid2 = [[Site]](repeating: [Site](repeating: Site(isClosed: false,isFull: false,isOpen: false,id: 100), count: n), count: n)
         uf = WeightedQuickUnionUF(n: n*n+2)
         
         for i in 1...n {
@@ -39,8 +41,16 @@ struct Percolation {
         
     }
     
+    // Site conforms to the identifiable protocol
+    struct Site: Identifiable {
+        var isClosed: Bool = false
+        var isFull: Bool = false
+        var isOpen: Bool = false
+        var id: Int 
+    }
+    
     // opens the site (row, col) if it is not open already
-    mutating func open(_ i: Int, j: Int) {
+    func open(_ i: Int, j: Int) {
         // todo: throw an exception if i or j are outside the prescribed range
         // check(i,j:j)
         grid[i-1][j-1] = true
@@ -89,8 +99,9 @@ struct Percolation {
     // returns the number of open sites
     func numberOfOpenSites() -> Int {
         var sum = 0
-        for i in 0...size {
-            for j in 0...size {
+        for i in 0..<size {
+            for j in 0..<size {
+               // print("(i,j) = \(i) \(j) \(sum)")
                 if (grid[i][j] == true) {
                     sum = sum + 1
                     // print(" sum \(sum)")

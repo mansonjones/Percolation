@@ -31,4 +31,12 @@ class PercolationViewModel {
         simulation.start()
     }
     
+    // TODO: Have this return the grid from the simulation
+    var grid: [Percolation.Site] {
+        var grid = [Percolation.Site]()
+        grid.append(Percolation.Site(isClosed: true, isFull: false, isOpen: false, id: 0))
+        grid.append(Percolation.Site(isClosed: false, isFull: true, isOpen: false, id: 1))
+        grid.append(Percolation.Site(isClosed: false, isFull: false, isOpen: true, id: 2))
+        return grid
+    }
 }
